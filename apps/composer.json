@@ -1,0 +1,17 @@
+{
+    "name": "vendor/gizidukasi",
+    "require": {
+        "twbs/bootstrap": "4.6.0" ,
+        "components/jquery": "^3.6",
+        "adhocore/jwt": "0.1.2",
+        "paragonie/sodium_compat": "^1.20",
+        "firebase/php-jwt": "*" 
+
+
+    },
+    "autoload": {
+        "psr-4": {
+            "YourNamespace\\": "/"
+        }
+    }
+}
